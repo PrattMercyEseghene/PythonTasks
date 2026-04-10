@@ -1,0 +1,10 @@
+number_one = 1024
+number_two = 2
+
+if number_one % 4 == 0:
+   print(number_one, 'is a multiple of 4')
+
+if number_two % 10 == 0:
+   print(number_two, 'is a multiple of 10')
+else:
+   print(number_two, 'is not a multiple of 10')
